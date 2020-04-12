@@ -1,0 +1,39 @@
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    background-color: blue;
+}
+
+.snake-die{
+    background-color: red;
+}
+
+.apple{
+    background-color: purple ;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.button-container button{
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+}
